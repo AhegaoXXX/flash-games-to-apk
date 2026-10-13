@@ -1,0 +1,28 @@
+# Local game files and configuration
+/games/
+
+# Generated APKs, backups, and legacy archives
+/dist/
+
+# Build artifacts, private signing keys, and local version counters
+/builder/build/
+/builder/signing/
+/builder/state/
+*.p12
+*.jks
+*.keystore
+
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary research and download files
+/.tools/
+/.firecrawl/
+
+# Operating-system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
